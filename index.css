@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+h1	{
+	text-align: center;
+}
+
+body {
+  font-family: system-ui;
+  margin: 0;
+  padding: 0;
+  background-color: #a9e596;
+  color:black;
+}
+
+header {
+  background-color:#58b153;
+  color:white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  color: black;
+}
+
+nav li {
+  margin: 0 1em;
+}
+
+nav a {
+  color:black;
+  text-decoration: none;
+}
+
+
+section h2 {
+  margin-bottom: 1em;
+  color: black;
+}
+
+section ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  color: black;
+}
+
+section li {
+  margin: 0 1em 1em 0;
+  width: 300px;
+}
+
+section h3{
+  color: black;
+}
+
+#apropos table {
+   table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid #347d30;
+  background-color: white;
+}
+#projets table{
+  width:100%;
+  table-layout: fixed;
+}
+
+footer{
+  padding: 30px 0px;
+  background-color: #347d30;
+  height: 100px;
+}
+
+footer hr{
+  overflow: hidden;
+  padding-left: initial;
+  background-color: #347d30;
+}
+
+footer a{
+  padding: 10px;
+  background-color: #347d30;
+
+}
+
+footer li{
+    color: white;
+    padding-top: 3px;
+    display: inline;
+    padding: 10px;
+    background-color: #347d30;
+}
+section footer {
+  background-color: #58b153;
+}
+.cadre {
+	border: 3px solid #58b153;
+	background-color: white;
+	padding: 10px;
+	width: 50%;
+	height: 70%;
+	top: 10%;
+	right: 20%;
+}
+@keyframes clignoter {
+  0%   { opacity:1; }
+  40%   {opacity:0; }
+  100% { opacity:1; }
+}
+section#apropos {
+  padding: 2em;
+}
+
+footer {
+  height: fit-content;
+}
+@media screen and (max-width: 600px) {
+  body {
+      column-count: 2;
+      column-gap: 20px;
+  }
+}
+#competence div {
+    padding-right: 10px;
+    font-size: 1rem;
+    font-family: system-ui;
+
+}
+#competence table {
+  width:100%;
+  table-layout: fixed;
+}
